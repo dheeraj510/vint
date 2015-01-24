@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @vint.title %>
+</p>
+
+<p>
+  <b>Descraption:</b>
+  <%= @vint.descraption %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%= @address.address %>
+</p>
+
+<p>
+  <b>App:</b>
+  <%= @vint.app_id %>
+</p>
+
+<p>
+  <b>Video url:</b>
+  <iframe src=<%= @vint.video_url %>></iframe>
+  
+</p>
+
+<%= link_to 'Back', vints_path %>

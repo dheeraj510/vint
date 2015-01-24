@@ -1,0 +1,2 @@
+module VintsHelper
+end
